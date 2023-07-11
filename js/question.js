@@ -254,7 +254,7 @@ let questions = [
         answer: "Tera Byte",
         options: [
           "Database Management System",
-          "Worldwide Interoperability for Microwave Access",
+          "Worldwide Interoperability",
           "eXTra Multi-Program Language",
           "Tera Byte"
         ]
