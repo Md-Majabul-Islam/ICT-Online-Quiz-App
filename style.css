@@ -1,30 +1,35 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Scheherazade New', serif;
 }
+
 body {
     background-color: #f1f1f1;
 }
+
 .MyQuizApp {
-width: 320px;
-height: 580px;
-position: absolute;
-top: 50%;
-left: 50%;
-background-color: #fff;
-box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
-transform: translate(-50%, -50%);
-border-radius: 48px;
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px;
 
 }
+
 .img img {
     width: 100%;
 }
+
 .text1 {
     width: 90%;
-    margin:auto;
+    margin: auto;
 }
+
 .text1 h1 {
     color: blue;
     background-image: linear-gradient(orange, tomato);
@@ -32,7 +37,8 @@ border-radius: 48px;
     margin-top: 25px;
     border-radius: 17px;
 }
-.text1 p{
+
+.text1 p {
     margin-top: 50px;
 }
 
@@ -40,22 +46,24 @@ border-radius: 48px;
 .MyBtn {
     width: 60%;
     margin-top: 54px;
-    margin-left:187px !important ;
+    margin-left: 187px !important;
 }
-.MyBtn button  {
+
+.MyBtn button {
     font-size: 20px;
     font-weight: 600;
     background-color: tomato;
-    border:none;
+    border: none;
     outline: none;
     color: #fff;
-    padding:6px 25px;
+    padding: 6px 25px;
     cursor: pointer;
     border-radius: 57px 0px 51px 0px;
     transition: 0.2s ease-in-out;
 }
+
 .MyBtn button:hover {
-    background-color: rgb(29, 194, 194); 
+    background-color: rgb(29, 194, 194);
 }
 
 .RulesBox.activeInfo {
@@ -69,60 +77,69 @@ border-radius: 48px;
 
 
 .RulesBox {
-width: 320px;
-height: 580px;
-position: absolute;
-top: 50%;
-left: 50%;
-background-color: #fff;
-box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
-transform: translate(-50%, -50%);
-border-radius: 48px;
-opacity: 0;
-pointer-events: none;
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px;
+    opacity: 0;
+    pointer-events: none;
 
 }
+
 .RulesTitle {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
     border-bottom: 1px solid lightgray;
-    padding:5px;
+    padding: 5px;
 }
+
 .RulesList {
     width: 80%;
-    margin:auto;
+    margin: auto;
 }
+
 ol li {
     font-size: 17px;
     font-weight: 500;
-    padding:10px 25px
+    padding: 10px 25px
 }
+
 .Buttons button {
     font-size: 20px;
     font-weight: 600;
     background-color: tomato;
-    border:none;
+    border: none;
     outline: none;
     color: #fff;
-    padding:6px 25px;
+    padding: 6px 25px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
     margin-top: 26px;
 }
+
 .ExitButton {
-    border-radius: 0px 47px 0px 46px; 
+    border-radius: 0px 47px 0px 46px;
 }
+
 .ExitButton:hover {
-  background-color:  red;
+    background-color: red;
 }
-.ContinueButton { 
+
+.ContinueButton {
     border-radius: 57px 0px 46px 0px;
     margin-left: 65px;
 }
+
 .ContinueButton:hover {
-    background-color: rgb(29, 194, 194); 
+    background-color: rgb(29, 194, 194);
 }
+
 .Questions.activeQuiz {
     opacity: 1;
     z-index: 5;
@@ -132,18 +149,18 @@ ol li {
 
 
 .Questions {
- width: 320px;
-height: 580px;
-position: absolute;
-top: 50%;
-left: 50%;
-background-color: #fff;
-box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
-transform: translate(-50%, -50%);
-border-radius: 48px;
-opacity: 0;
-pointer-events: none;  
- transform: translate(-50%, -50%) scale(1);
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 48px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(1);
 
 }
 
@@ -162,6 +179,7 @@ pointer-events: none;
     font-size: 15px;
     font-weight: 600;
 }
+
 .TimeCount {
     color: #004085;
     background: #cce5ff;
@@ -173,6 +191,7 @@ pointer-events: none;
     justify-content: space-between;
     width: 120px;
 }
+
 .Seconds {
     font-size: 18px;
     font-weight: 500;
@@ -187,16 +206,18 @@ pointer-events: none;
     user-select: none;
 }
 
-.section{
+.section {
     padding: 25px 30px 20px 30px;
 }
+
 .text {
     font-size: 25px;
     font-weight: 600;
 }
+
 .MyOptions {
     padding: 20px 0px;
-    display: block;   
+    display: block;
 }
 
 .options {
@@ -212,18 +233,20 @@ pointer-events: none;
     align-items: center;
     justify-content: space-between;
 }
+
 .options:hover {
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
-footer{
+
+footer {
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid lightgrey;
-   
+
 }
 
 .total_que {
@@ -233,7 +256,7 @@ footer{
 
 
 
-footer button{
+footer button {
     font-size: 20px;
     font-weight: 600;
     padding: 6px 25px;
@@ -246,26 +269,29 @@ footer button{
     color: #f1f1f1;
     transition: all 0.3s ease;
     margin-top: 11px;
-    display: none; 
-    
+    display: none;
+
 
 }
-footer .nextBtn:hover{
+
+footer .nextBtn:hover {
     background-color: rgb(29, 194, 194);
-    
-} 
-.options.correct{
-    color:#155724;
+
+}
+
+.options.correct {
+    color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
-.options.incorrect{
+
+.options.incorrect {
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 
-.options.disabled{
+.options.disabled {
     pointer-events: none;
 }
 
@@ -283,9 +309,9 @@ footer .nextBtn:hover{
 .reslut_box {
     width: 320px;
     height: 580px;
-    position:absolute;
+    position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     display: flex;
     background-color: #fff;
     border-radius: 45px;
@@ -295,33 +321,35 @@ footer .nextBtn:hover{
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 .ResultImg img {
-width: 100%;
-height: 170px;
-margin-bottom: 180px;
+    width: 100%;
+    height: 170px;
+    margin-bottom: 180px;
 }
+
 .complete_text {
     font-size: 20px;
     font-weight: 500;
 }
+
 .score_text span {
     display: flex;
-    margin:10px 0; 
+    margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
 }
 
 .score_text span p {
-    padding:0 4px;
+    padding: 0 4px;
     font-weight: 600;
 }
 
 .reslut_box .buttons {
     display: flex;
-    margin: 20px 0px;  
+    margin: 20px 0px;
 }
 
 .reslut_box .buttons button {
@@ -337,31 +365,27 @@ margin-bottom: 180px;
     transition: all 0.3s ease;
 }
 
-.restart1{
+.restart1 {
     background-color: tomato;
     color: #fff;
 }
-.restart1:hover{
+
+.restart1:hover {
     background-color: rgb(29, 194, 194);
 }
 
-.quit{
+.quit {
     background-color: tomato;
     color: #fff;
 }
+
 .quit:hover {
     background-color: red;
 }
 
-.reslut_box.activeResult{
+.reslut_box.activeResult {
     z-index: 5;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
     pointer-events: auto;
 }
-
-
-
-
-
-
