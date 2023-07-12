@@ -191,7 +191,7 @@ let questions = [
     },
     {
         numb: 17,
-        question: "What Does CSS Stand For?",
+        question: "What Does USB Stand For?",
         answer: "Universal Serial Bus",
         options: [
           "Universal Serial Bus",
