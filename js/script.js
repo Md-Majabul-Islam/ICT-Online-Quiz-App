@@ -102,7 +102,7 @@ function showQuestions(index) {
     que_text.innerHTML = que_tag;
     option_list.innerHTML = option_tag;
     const total_que = document.querySelector(".total_que");
-    let total_queTag = '<p>' + questions[index].numb + ' Of 30 </p>'
+    let total_queTag = '<p>' + questions[index].numb + ' Of 10 </p>'
     total_que.innerHTML = total_queTag;
 
 
@@ -163,11 +163,11 @@ function showResultBox() {
     reslut_box.classList.add("activeResult");
 
     const scoreText = document.querySelector(".score_text");
-    if (userScore > 3) {
+    if (userScore > 7) {
         let scoreTag = '<span>Congratulations You Got <p>' + userScore + '</p> Out Of <p>' + questions.length + '</p></span>';
         scoreText.innerHTML = scoreTag;
     }
-    else if (userScore > 1) {
+    else if (userScore > 3) {
         let scoreTag = '<span>Carry On 👌 You Got <p>' + userScore + '</p> Out Of <p>' + questions.length + '</p></span>';
         scoreText.innerHTML = scoreTag;
     }
